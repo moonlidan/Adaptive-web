@@ -1,0 +1,35 @@
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1340px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        padding: 30px;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        padding: 20px;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+}

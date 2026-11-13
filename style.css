@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.layout {
+    display: flex;
+    gap: 30px;
+}
+
+main {
+    flex: 1;
+    min-width: 0;
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    padding: 40px 20px;
+    background: #dcd0ff;
+    border-radius: 10px;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background: #eee;
+}
